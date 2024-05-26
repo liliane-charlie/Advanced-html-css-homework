@@ -4,19 +4,58 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About me</title>
+    <style>
+      body {
+        display: block;
+        margin: 0px auto;
+        text-align: center;
+      }
+      section {
+        text-decoration: none;
+        font-size: 25px;
+        font-weight: 1px;
+        margin-bottom: 30px;
+      }
+      .describe {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      .description {
+        padding: 20px 30px;
+        text-align: justify;
+        font-size: 25px;
+        margin-bottom: 40px;
+      }
+      #about {
+        font-size: 65px;
+      }
+      .developer {
+        color: gray;
+      }
+      #contact {
+        font-size: 50px;
+      }
+      a {
+        font-size: 30px;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+        color: red;
+      }
+    </style>
   </head>
   <body>
     <h1>
       <section>
         <a href="index.html"> Home page</a>
       </section>
-      <div id="about">
-        About me
-        <p>Front End Developer from Yaounde, Cameroon</p>
-      </div>
+      <div id="about">About me</div>
+      <div class="developer">Front End Developer from Yaounde, Cameroon</div>
     </h1>
     <div class="describe">
-      <div>
+      <div class="description">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
         aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
         alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
@@ -25,7 +64,7 @@
         quia, odit qui alias veniam excepturi rem dolor fugit dignissimos, sed
         voluptatum blanditiis harum.
       </div>
-      <div>
+      <div class="description">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
         aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
         alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
@@ -35,9 +74,9 @@
         voluptatum blanditiis harum.
       </div>
     </div>
-    <div id="contact">
-      📪 Contact me
-      <a href="mailto: outekliliane@gmail.com"></a>
+    <div id="contact">📪 Contact me</div>
+    <div>
+      <a href="mailto:outekliliane@gmail.com"> outekliliane@gmail.com </a>
     </div>
   </body>
 </html>
